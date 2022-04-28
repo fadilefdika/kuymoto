@@ -1,0 +1,60 @@
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.camera,
+.flash,
+.lensa,
+.gimbal {
+  border: 2px solid white;
+  height: 300px;
+  width: 229px;
+  background-color: black;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.bc {
+  background-color: white;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  height: 225px;
+}
+#sny {
+  position: absolute;
+  top: 70px;
+}
+#lns {
+  position: absolute;
+  top: 40px;
+}
+.lpdesk {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+}
+.i {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+#h {
+  margin-top: 7px;
+  color: rgb(225, 166, 19);
+}
+
+.selengkapnya {
+  padding: 15px 30px;
+  display: block;
+  margin: 55px auto;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.selengkapnya:hover {
+  background-color: rgb(225, 166, 19);
+  color: white;
+  cursor: pointer;
+}

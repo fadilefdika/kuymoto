@@ -1,0 +1,134 @@
+/* div.foto {
+  position: absolute;
+  left: 730px;
+  top: 150px;
+  background-color: white;
+  padding: 190px;
+  width: 10px;
+}
+
+#satu {
+  width: 250px;
+  position: absolute;
+  z-index: 3;
+  top: 25px;
+  right: 120px;
+}
+#dua {
+  width: 220px;
+  position: absolute;
+  z-index: 4;
+  left: 200px;
+  top: 85px;
+}
+#tiga {
+  width: 250px;
+  position: absolute;
+  z-index: 2;
+  top: 185px;
+  left: 100px;
+}
+
+h4 {
+  color: white;
+  font-size: 43px;
+  margin: 10px 0px;
+}
+
+.desk {
+  position: absolute;
+  bottom: 255px;
+  left: 85px;
+  margin: 20px;
+}
+
+.desk p {
+  font-size: 15px;
+  margin-left: 10px;
+  color: rgb(248, 195, 134);
+}
+
+button {
+  font-size: 15px;
+  padding: 12px 24px;
+  position: absolute;
+  bottom: 180px;
+  left: 120px;
+  background-color: rgb(225, 166, 19);
+  border-radius: 15%;
+  color: white;
+} */
+
+.deskripsi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 505px;
+}
+
+.desk {
+  color: white;
+}
+h4 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+p {
+  font-size: 15px;
+  margin-left: 5px;
+}
+#p1 {
+  color: rgb(225, 166, 19);
+}
+#p2 {
+  margin-bottom: 25px;
+  color: rgb(225, 166, 19);
+}
+.foto {
+  position: relative;
+}
+
+.back {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  padding: 50px 63px;
+}
+#satu {
+  width: 220px;
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  z-index: 2;
+  border-radius: 0;
+}
+#dua {
+  width: 185px;
+  position: absolute;
+  top: 110px;
+  right: -35px;
+  z-index: 3;
+  border-radius: 0;
+}
+#tiga {
+  width: 250px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.shop {
+  font-size: 15px;
+  padding: 13px 26px;
+  border-radius: 13px;
+  margin-left: 15px;
+}
+.shop:hover {
+  background-color: rgb(225, 166, 19);
+  color: white;
+}

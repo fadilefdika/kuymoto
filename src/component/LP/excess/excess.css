@@ -1,0 +1,26 @@
+.keunggulan {
+  background-color: #333;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+p {
+  color: white;
+}
+.cameraI {
+  font-size: 30px;
+}
+.palette {
+  font-size: 30px;
+}
+.bill {
+  font-size: 30px;
+}
+.billW {
+  font-size: 30px;
+}
+.icon {
+  color: rgb(225, 166, 19);
+  font-size: 24px;
+}

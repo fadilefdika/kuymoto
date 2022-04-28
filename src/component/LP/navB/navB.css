@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'stereofidelic';
+  src: url('../../../asets/Font/stereofidelic/stereofidelic.ttf');
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  /* position: relative; */
+}
+h1 {
+  color: rgb(225, 166, 19);
+}
+
+.logo {
+  font-size: 30px;
+  font-family: 'stereofidelic';
+}
+
+nav {
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 1px 2px black;
+}
+nav ul li a:hover {
+  color: rgb(225, 166, 19);
+}
+
+.garis {
+  position: relative;
+}
+
+#garisa {
+  width: 450px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+#garisb {
+  width: 300px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+#garisc {
+  width: 150px;
+  height: 2px;
+  background-color: white;
+}
